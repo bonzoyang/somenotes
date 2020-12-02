@@ -10,13 +10,13 @@ cd ~/download
 sudo chmod +x NVIDIA-Linux-x86_64-450.80.02.run
 ./NVIDIA-Linux-x86_64-450.80.02.run
 
-## solve `Failed to fetch cdrom` error [ref](https://linuxconfig.org/failed-to-fetch-cdrom-ubuntu-debian-apt-get-error-message-solution)
+## solve `Failed to fetch cdrom` error [\[ref\]](https://linuxconfig.org/failed-to-fetch-cdrom-ubuntu-debian-apt-get-error-message-solution)
 #### turn off apt source from cdrom
 turn on 'Software & Updates'
 uncheck "Cdrom with Ubuntu 20.04 'Focal Fossa'"
 ![](/img/driver3.png)
 
-## solve `The Nouveau kernel driver is currently in use by your system` [ref](https://clay-atlas.com/blog/2020/02/11/linux-chinese-note-nvidia-driver-nouveau-kernel/)
+## solve `The Nouveau kernel driver is currently in use by your system` [\[ref\]](https://clay-atlas.com/blog/2020/02/11/linux-chinese-note-nvidia-driver-nouveau-kernel/)
 
 sudo vim /etc/modprobe.d/blacklist-nouveau.conf
 #### settings in blacklist-nouveau.conf
@@ -32,7 +32,7 @@ sudo reboot
 #### check if Nouveau stopped
 lsmod | grep nouveau
 
-## install CUDA [ref](https://www.tensorflow.org/install/gpu#software_requirements)
+## install CUDA [\[ref\]](https://www.tensorflow.org/install/gpu#software_requirements)
 
 #### Add NVIDIA package repositories
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.1.243-1_amd64.deb

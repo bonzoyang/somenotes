@@ -1,6 +1,6 @@
 # how to activate CHT ADSL (中華電信ADSL) static ip
 
-## set pppoe [ref](http://note.drx.tw/2008/08/networkpppoe-adsl.html)
+## set pppoe [\[ref\]](http://note.drx.tw/2008/08/networkpppoe-adsl.html)
 sudo apt-get install pppoeconf
 sudo pppoeconf
 #### settings in pppoeconf GUI
@@ -11,7 +11,7 @@ password: # default password CHT gave you
 all other options: yes
 ```
 
-## edit this file [ref](https://www.opencli.com/linux/ubuntu-18-04-netplan-setup-static-ip), [ref](https://askubuntu.com/questions/1029531/how-to-setup-a-static-ip-on-ubuntu-server-18-04)
+## edit this file [\[ref\]](https://www.opencli.com/linux/ubuntu-18-04-netplan-setup-static-ip), [\[ref\]](https://askubuntu.com/questions/1029531/how-to-setup-a-static-ip-on-ubuntu-server-18-04)
 sudo vim /etc/netplan/01-network-manager-all.yaml
 
 #### origin content
