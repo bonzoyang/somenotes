@@ -26,8 +26,8 @@ network:
     ethernets:
         enp0s31f6:
             dhcp4: no
-            addresses: [122.116.157.31/32]
-            gateway4: 122.116.157.254
+            addresses: [111.222.333.444/32]
+            gateway4: 111.222.333.254
             nameservers:
                 addresses: [168.95.1.1, 8.8.8.8, 8.8.4.4]
 ```
