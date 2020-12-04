@@ -34,9 +34,9 @@ network:
 sudo netplan apply
 
 ## set firewall
-sudo ufw enable
-sudo ufw allow ssh
-sudo ufw allow https
-sudo ufw allow http
-sudo ufw allow 8000:10000/tcp
-sudo ufw status
+sudo ufw enable  
+sudo ufw allow ssh  
+sudo ufw allow https  
+sudo ufw allow http  
+sudo ufw allow 8000:10000/tcp  
+sudo ufw status  
